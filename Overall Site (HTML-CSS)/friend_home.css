@@ -5,7 +5,8 @@ body{
 	background-color: #23222B;
 	color: #FFFFFF;
 	margin:0px;
-	text-align: center
+	
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	
 }
 
@@ -13,7 +14,6 @@ body{
 	background: #2A292D;
 	margin: auto;
 	width: 50%;
-	
 }
 
 #banner{
@@ -46,9 +46,18 @@ body{
 }
 
 #content{
-	
+	width:95%;
+    text-align: justify;
 }
-
+#content p{
+    padding-left:50px;
+}
+#content h1,h2{
+    text-align: center
+}
+#content p{
+    padding: 5px;
+}
 #footer{
 	text-align: right;
 	height: 20px;
