@@ -48,11 +48,13 @@ body{
 #content{
 	width:95%;
     text-align: justify;
+    margin: auto;
+    
 }
 #content p{
     padding-left:50px;
 }
-#content h1,h2{
+#content h1,h2,h3{
     text-align: center
 }
 #content p{

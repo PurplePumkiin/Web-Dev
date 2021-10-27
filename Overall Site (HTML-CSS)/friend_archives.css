@@ -50,7 +50,7 @@ body{
     width: 10%;
     height: 172px;
     background-color: #252525;
-    padding: 30px
+    padding: 25px
 }
 #leftnav a{
     color: #FFFFFF;
@@ -74,7 +74,21 @@ body{
 #content{
 	width: 85%;
     height: 200px;
-
+    text-align: center;
+    list-style: inside;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+#ul-list ul{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;  
+    align-content: center;
+    list-style-type: none
+}
+#ul-list ul li{
+    text-align: justify;
+    align-content: center;
 }
 
 #footer{
