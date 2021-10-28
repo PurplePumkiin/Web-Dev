@@ -17,7 +17,11 @@ body{
 }
 
 #banner{
-	
+	background-color: #271B4B;
+}
+#banner img{
+	width: 100%;
+	height: 50px;
 }
 
 #nav{

@@ -5,8 +5,7 @@ body{
 	background-color: #23222B;
 	color: #FFFFFF;
 	margin:0px;
-	
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center
 	
 }
 
@@ -14,8 +13,8 @@ body{
 	background: #2A292D;
 	margin: auto;
 	width: 50%;
+	
 }
-
 #banner{
 	background-color: #271B4B;
 }
@@ -27,7 +26,7 @@ body{
 #nav{
 	height: 22px;
 	background-color: #271B4B;
-	
+
 }
 
 #nav a{
@@ -39,6 +38,7 @@ body{
 	text-transform: uppercase;
 	font-weight: bold;
 	padding: 1px;
+
 }
 
 #nav a:hover{
@@ -48,27 +48,45 @@ body{
 	padding-right: 1px;
 	
 }
+#leftnav{
+    float: left;
+    width: 10%;
+    height: 172px;
+    background-color: #252525;
+    padding: 30px
+}
+#leftnav a{
+    color: #FFFFFF;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";   
+    font-size: 75%;
+    font: "bold";
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    padding-left: 2px;
+    padding-right: 20px;
+}
+#leftnav a:hover{
+    padding: 10px;
+    padding-left: 2px;
+    padding-right: 20px;
+    background-color: #343333
+}
 
 #content{
-	width:95%;
-    text-align: justify;
-    margin: auto;
-    
+	width: 85%;
+    height: 200px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 80%;
 }
-#content p{
-    padding-left:50px;
-}
-#content h1,h2,h3{
-    text-align: center
-}
-#content p{
-    padding: 5px;
-}
+
 #footer{
 	text-align: right;
 	height: 20px;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	text-transform: uppercase;
+    font-weight: bolder;
 	font-size: 16px;
-	background-color: #271B4B
+	background-color: #271B4B;
 	}
