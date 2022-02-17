@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content{
+	margin: auto;
+	padding-left: 45%;
+	width:65%;
+	align-content: center;
+}
+
+.calcButtons{
+    width: 30px;
+    border-radius: 10px;
+    background-color: darkgrey;
+}
+
+#calc{
+    width: 125px
+}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+.goalsList{
+	margin: auto;
+	padding-left: 40%;
+	font-family: 'comfortaa';
+	line-height: 175%
+}

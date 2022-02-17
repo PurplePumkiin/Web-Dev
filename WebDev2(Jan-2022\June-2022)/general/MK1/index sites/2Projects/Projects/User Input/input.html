@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+    <link href="../../../../main.css" type="text/css" rel="stylesheet">
+	<link href="input.css" type="text/css" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>How To Commit Tax Fraud</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <p>Banner.jpg</p>
+        </div>
+        <div id="nav">
+            <table>
+				<tr>
+					<td><a href="../../../../index.html">Home</a></td>
+				</tr>
+                <tr>
+					<td><a href="../../../../index sites/1About Me/AboutMe.html">About Me</a></td>
+				</tr>
+			    <tr>
+					<td><a href="../../../../index sites/2Projects/Projects.html">Projects</a></td>
+				</tr>
+				<tr>
+					<td><a href="../../../../index sites/3FAQ/FAQ.html">FAQ</a></td>
+				</tr>
+				<tr>
+					<td><a href="../../../../index sites/4Goals/Goals.html">Goals</a></td>
+				</tr>
+				<tr>
+					<td><a href="../../../../index sites/5Contact/Contact.html">Contact</a></td>
+				</tr>
+            </table>
+                            </div>
+        <div id="content">
+			<!-- Coders note, if ANYONE somehow gets access to the file itself, and manages to break it, just know, I will violently rip your limbs off, fill your lungs with highly oxygenated water,  making sure it has just enough oxygen to keep you alive and feeling pain, that way you feel like your drowning 24/7, mixed with the pain of having your limbs ripped off. And finally, I wont hurt your family, rather I will steal random items from their home that inconvinence them, like half read books, or batteries. This isnt a threat, this is a promise. --Dennis -->
+			
+			
+			
+			
+			<div id="formText">
+				<form id="form1">
+					<!-- This is the input field for a js script that displays the text in input feild as a <p> just bellow it -->
+					<input type="text" name="user" id="user">
+					<!-- The button bellow triggers a JS function that reads what the user has typed in -->
+					<button type="submit" onClick="dad()">Click me!</button>
+				</form>
+				
+				<p id="p"></p>
+			</div>
+			
+			<script>
+				//I swear to god if I sync my files tomorrow and this is broken I will kill something, this isn't a real threat im just angry, this has been broken for 6 hours and I dont know why
+				function dad() {
+					var why = document.getElementById('user').value; //<-- this code gets the text from the top text box and puts in a var named why
+					document.getElementById('p').innerHTML = why; //<-- this code displays why in a <p> element
+				}
+			
+			</script>
+			<div>
+			<div id="formCal"><br><br><br>
+			  	<form name="formCal">
+                    
+					<input type="text" name="answer" id="calc" class="calcButtons"><br><br>
+                    
+                
+					<input type="button" class="calcButtons" onClick="formCal.answer.value = ''" value="Clr">
+                    <input class="calcButtons" type="button" onClick="formCal.answer.value = Math.sin(eval(formCal.answer.value) * Math.PI/180)" value="sin">
+                    <input class="calcButtons" type="button" onClick="formCal.answer.value = Math.cos(eval(formCal.answer.value) * Math.PI/180)" value="cos">
+                    <input class="calcButtons" type="button" onClick="formCal.answer.value = Math.tan(eval(formCal.answer.value) * Math.PI/180)" value="tan">
+                    <br><br>
+					<input class="calcButtons" type="button" onClick="formCal.answer.value += '1'" value="1">
+					<input class="calcButtons" type="button" onClick="formCal.answer.value += '2'" value="2">
+					<input class="calcButtons" type="button" onClick="formCal.answer.value += '3'" value="3">
+					<input class="calcButtons" type="button" onClick="formCal.answer.value += '/'" value="/">
+					<br><br>
+					
+					<input class="calcButtons" type="button" onClick="formCal.answer.value += '4'" value="4">
+					<input class="calcButtons" type="button" onClick="formCal.answer.value += '5'" value="5">
+					<input class="calcButtons" type="button" onClick="formCal.answer.value += '6'" value="6">
+					<input class="calcButtons" type="button" onClick="formCal.answer.value += '*'" value="x">
+					<br><br>
+					
+					<input class="calcButtons" type="button" onClick="formCal.answer.value += '7'" value="7">
+					<input class="calcButtons" type="button" onClick="formCal.answer.value += '8'" value="8">
+					<input class="calcButtons" type="button" onClick="formCal.answer.value += '9'" value="9">
+					<input class="calcButtons" type="button" onClick="formCal.answer.value += '+'" value="+">
+					<br><br>
+					
+					<input class="calcButtons" type="button" onClick="formCal.answer.value += '.'" value=".">
+					<input class="calcButtons" type="button" onClick="formCal.answer.value = eval(formCal.answer.value)" value="=">
+					<input class="calcButtons" type="button" onClick="formCal.answer.value += '-'" value="-">
+                    <input class="calcButtons" type="button" onClick="formCal.answer.value = Math.sqrt(eval(formCal.answer.value))" value="√">
+					<br><br>
+                    
+                    
+				</form>
+                </div>
+			</div>
+			
+			<p id="d"></p>
+			
+			<p id="cal"></p>
+			
+			<script type="text/javascript">
+                    
+                }
+				
+				//The code below prevents the "submit" button from refreshing the page
+				var form = document.getElementById("form1");
+				function handleForm(event) { event.preventDefault(); } 
+				form.addEventListener('submit', handleForm);
+				
+				var form = document.getElementById("formCal");
+				function handleForm(event) { event.preventDefault(); } 
+				form.addEventListener('submit', handleForm);
+			
+				
+			</script>
+			
+			
+			
+			
+			
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>

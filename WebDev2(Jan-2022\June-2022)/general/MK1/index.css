@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+.header{
+	text-align: center;
+	font-family: 'Comfortaa';
+	font-size: 200%;
+}
+
+.text{
+	font-family: 'Comfortaa';
+	font-size: 112%
+}
+#content{
+	margin: auto;
+	padding-left: 150px
+}
