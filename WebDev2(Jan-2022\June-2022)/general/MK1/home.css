@@ -1,0 +1,19 @@
+/* CSS Document */
+
+#content{
+	text-align: center;
+	color: darkgray;
+	font-family: comfortaa;
+	width: 50%;
+	margin: auto;
+}
+
+.mainHeader{
+	font-size: 3rem;
+	font-weight: bolder;
+}
+
+.secondHeader{
+	font-size: 2rem;
+	font-weight: bold;
+}

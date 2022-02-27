@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	/*background-color: #202229;*/
+}
+
+button{
+	position: absolute;
+	top: 23%;
+	right: .5%;
+	border-radius: 50px;
+	background-color: darkgray;
+	border: 0px;
+}
+
+.darkMode{
+	background-color: #0D0E11;
+}
+
+#wrapper{
+    
+}
+
+#topNav{
+	background-color: #343A47;
+	height: 35px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	width: 100%
+}
+
+#central{
+	width:99%;
+	margin: auto;
+    float: right;
+	height: 90%;
+	position: absolute;
+	top: 40px;
+	min-width: 500px;
+	color: darkgray;
+}
+
+#footer{
+	
+}
+
+.header{
+	font-size: 2em;
+	font-family: comfortaa;
+	text-align: center;
+}
+
+.spacer{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.content{
+	font-size: 1.25em;
+	text-align: center;
+	font-family: comfortaa;
+	
+}

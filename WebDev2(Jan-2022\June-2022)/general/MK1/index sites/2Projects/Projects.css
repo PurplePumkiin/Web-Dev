@@ -3,7 +3,8 @@
 
 #content{
 	margin: auto;
-	padding-left: 150px;
+	color: darkgray;
+	width: 25%;
 }
 
 #content tr {
@@ -16,16 +17,20 @@
 }
 
 table a{
-	color: white;
+	color: darkgrey;
 	text-decoration: none;
 	font-weight: bolder;
 }
 
-.mainHeader{
-	text-align: center;
-	font-family: 'Bebas Neue';
-	font-size: 250%;
+.head{
+	font-size: 2.5em;
 }
 
-.head{
+.content{
+	font-size: 1.04em;
+}
+
+.spacer{
+	padding-left: 1em;
+	padding-right: 1em;
 }

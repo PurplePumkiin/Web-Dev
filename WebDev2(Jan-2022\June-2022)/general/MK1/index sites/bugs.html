@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+	<link href="bugs.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+	<title>The Daily Bit</title>
+</head>
+
+<body>
+	<div id="wrapper">
+	<div id="topNav">
+	    <button onClick="modeToggle()" id="colorButton">Color Mode</button>
+		<script>
+			function modeToggle() {
+				var element = document.body;
+				element.classList.toggle("darkMode")
+			}
+		</script>
+
+	</div>
+	<div id="central">
+		<center>
+			<table>
+				<tr class="header">
+					<td>Bug</td>
+					<td class="spacer">-</td>
+					<td>Date Found</td>
+					<td class="spacer">-</td>
+					<td>Fixed On</td>
+				</tr>
+				<br>
+				<tr class="content">
+					<td>iFrame Caching Issue</td>
+					<td></td>
+					<td>2/26/22</td>
+					<td></td>
+					<td class="dateFixed"></td>
+				</tr>
+			</table>
+		</center>
+	</div>
+	<div id="footer"></div>
+	
+	
+	</div>
+</body>
+</html>
